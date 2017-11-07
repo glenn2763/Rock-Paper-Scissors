@@ -1,2 +1,0 @@
-print "Welcome to Rock Paper Scissors 2017!"
-choice = input ("Do you want to choose rock, paper, or scissors?"
