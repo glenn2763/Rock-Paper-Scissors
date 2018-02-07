@@ -22,19 +22,19 @@ def play():
         print ("It's a tie! Try again.")
     elif user_choice == 1:
         if computer_choice == 3:
-            print ("I chose Scissors, looks like you have won! Congradulations!")
+            print ("I chose Scissors, looks like you have won! Congratulations!")
         else:
             print ("I chose Paper, you have lost. Try again!")
     elif user_choice == 2:
         if computer_choice == 3:
             print ("I chose Scissors, looks like you have lost. Try again!")
         else:
-            print ("I chose Rock, looks like you have won! Congradulations!")
+            print ("I chose Rock, looks like you have won! Congratulations!")
     else:
         if computer_choice == 1:
             print ("I chose Rock, looks like you have lost. Try again!")
         else:
-            print ("I chose Paper, looks like you have won! Congradulations!")
+            print ("I chose Paper, looks like you have won! Congratulations!")
     play2 = input("Would you like to play again? Y/N")
     #runs play again if the user would like to play again
     if play2.lower() == "y":
