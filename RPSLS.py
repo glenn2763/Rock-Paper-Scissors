@@ -37,7 +37,7 @@ def play(streak):
         user_choice = 5
     else:
         print("Make sure you spelled correctly.")
-        return play()
+        return play(streak)
         #Ensures that player's input is a choice, and re-runs the play function to offer a new input if not.
     computer_choice = randint(1,5)
     if user_choice == computer_choice:
